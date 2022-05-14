@@ -1,18 +1,20 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: 'Sacramento', cursive;
+  display: flex; align-items: center; justify-content: center; min-height: 100vh;
 }
 
-h2 {
+h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: hsl(218, 44%, 22%);
   font-weight: 900;
 
 
+
 }
 
-p {
+.qrcode {
   font-family: 'Merriweather', serif;
   font-size: 15px;
   font-weight: 400;
@@ -29,7 +31,7 @@ img {
 
 .centre-work {
   background-color: hsl(0, 0%, 100%);
-  margin: 300px auto;
+  margin: auto;
   width: 300px;
   border: 200px;
   padding: 15px;
@@ -37,10 +39,12 @@ img {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 20px;
   text-align: center;
+margin: 60px;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+
 }
